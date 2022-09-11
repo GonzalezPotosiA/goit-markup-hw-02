@@ -3,62 +3,67 @@
   <head>
     <!-- Metadata -->
     <meta charset="utf-8" />
-    <title>Homework#2</title>
+    <title>Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Content -->
 
     <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <a href="">Estudio</a>
-        <a href="">Portafolio</a>
-        <a href="">Contáctanos</a>
+      <nav >
+        <a class="link webstudio-title" href="">WebStudio</a>
+        <a class="link subtitle studio-pag" href="">Estudio</a>
+        <a class="link subtitle briefcase" href="portafolio.html">Portafolio</a>
+        <a class="link subtitle contact" href="">Contáctanos</a>
+       
       </nav>
 
-      <a href="">infor@devstudio.com</a>
-      <a href="">+52 55 5529 6000</a>
+      <a class="link subtitle email" href="">infor@devstudio.com</a>
+      <a class="link subtitle tel" href="">+52 55 5529 6000</a>
     </header>
 
     <main>
-      <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button>Solicite nuestro servicio</button>
+      <section class="main-section">
+
+        <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button class="button main-button" type="button" >Solicite nuestro servicio</button>
       </section>
 
-      <section>
+      <section class="p-section">
 
         <p>
-          <h4>Atención a los detalles</h4>
-          <article>
+          <h4 class="title-paragraph">Atención a los detalles</h4>
+         
             Nos adentramos a todos los detalles y procesos de su negocio,
             para así desarrollar una solución a su medida
-          </article>
+          
         </p>
 
         <p>
-          <h4>Puntualidad</h4>
-          <article>
+          <h4 class="title-paragraph">Puntualidad</h4>
+          
             Con nosotros usted puede sentirse seguro y protegido. Un
             principio importante de la empresa: respetar su tiempo y
             respetar los plazos acordados
-          </article>
+
         </p>
 
         <p>
-          <h4>Planificación</h4>
-          <article>
+          <h4 class="title-paragraph">Planificación</h4>
+          
             Usted podra observar y participar en cada fase de desarrollo y
             aplicacioón de soluciones
-          </article>
+          
         </p>
 
         <p>
-          <h4>Tecnología moderna</h4>
-          <article>
+          <h4 class="title-paragraph">Tecnología moderna</h4>
+         
             Usamos herramientas innovadoras para resolver las tareas
             asignadas. Es hora de simplificar los procesos laborales
-          </article>
+          
         </p>
 
         <!--<table>
@@ -102,84 +107,94 @@
       </section>
 
       <section>
-        <h2>A que nos dedicamos</h2>
-        <img src="images/teclado.jpg" alt="teclado y tablet" width="370" />
-        <img
+        <h2 class="objective-title">A que nos dedicamos</h2>
+        <img class="img-dedication"
+          src="images/teclado.jpg" 
+          alt="teclado y tablet" 
+        />
+
+        <img class="img-dedication"
           src="images/computador.jpg"
           alt="computador y celular"
-          width="370"
+        
         />
-        <img
+        <img class="img-dedication"
           src="images/tablet.jpg"
           alt="table con imagenes en colores"
-          width="370"
+        
         />
       </section>
 
+      <!--Seccion para los ingenieros-->
       <section>
-        <h2>Nuestro equipo</h2>
-        <figure>
-          <img src="images/hombre.jpg" alt="teclado y tablet" width="270" />
+        <h2 class="objective-title" >Nuestro equipo</h2>
+
+          <figure class="enginner">
+            <img class="img-enginner" src="images/hombre.jpg" alt="Diseñador de productos" />
+            <figcaption>
+              
+              <h4 class="title-enginner">
+                Andrés Cubo 
+              </h4>
+              <p class="p-enginner">Diseñador de productos</p>
+            </figcaption>
+          </figure>  
+        
+
+        <figure class="enginner">
+          <img class="img-enginner" src="images/mujer.jpg" alt="Desarrolladora FrontEnd" />
           <figcaption>
-            <h4>
-              Andrés Cubo <br />
-              Diseñador de productos
+            <h4 class="title-enginner">
+              Carla Palacios
             </h4>
+            <p class="p-enginner">Desarrolladora FrontEnd</p>
           </figcaption>
         </figure>
 
-        <figure>
-          <img src="images/mujer.jpg" alt="computador y celular" width="270" />
-          <figcaption>
-            <h4>
-              Carla Palacios<br />
-              Desarrolladora FrontEnd
-            </h4>
-          </figcaption>
-        </figure>
-
-        <figure>
+        <figure class="enginner">
           <img
+            class="img-enginner"
             src="images/hombre2.jpg"
-            alt="table con imagenes en colores"
-            width="270"
+            alt="Marketing"
+          
           />
           <figcaption>
-            <h4>
-              Mario Dorado<br />
-              Marketing
+            <h4 class="title-enginner">
+              Mario Dorado
             </h4>
+            <p class="p-enginner">Marketing</p>
           </figcaption>
         </figure>
 
-        <figure>
+        <figure class="enginner">
           <img
+            class="img-enginner"
             src="images/hombre3.jpg"
-            alt="table con imagenes en colores"
-            width="270"
+            alt="Diseñador UI"
+          
           />
           <figcaption>
-            <h4>
-              Pablo Mijangos<br />
-              Diseñador IU
+            <h4 class="title-enginner">
+              Pablo Mijangos
             </h4>
+            <p class="p-enginner">Diseñador IU</p>
           </figcaption>
         </figure>
       </section>
     </main>
 
-    <footer>
-      <h3>WebStudio</h3>
+    <footer class="">
       
-      <address>
-
-          695 Park Ave, New York, NY 10065, United States
-          <br />
-          info@example.com
-          <br />
-          +1 212-772-4150
-
-      </address>
+      <div class="footer-section">
+        <h3 class="webstudio-title">WebStudio</h3>
+        <ul class="address-info">
+          <li>Caiz Ticoman 500 Ciudad de Mexico, CDMX, México</li>
+          <li class="foot-info">info@example.com</li>
+          <li class="foot-info">+52 55 5529 6000</li>
+          <li></li>
+        </ul>
+      </div>
+      
     </footer>
   </body>
 </html>
